@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#try {
+  display: block;
+  margin-top: 3%;
+  margin-left: 32%;
+}
+
+.searchbar {
+  position: relative;
+  margin-left: 28%;
+  width: 42%;
+  padding: 14px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e3eaf4;
+  box-shadow: 0 2px 4px #c7c9cc;
+}
+
+.sbutton{
+  position: relative;
+  margin-top: 2.5%;
+  margin-left: 40%;
+}
+
+.sbutton #bt1{
+  padding: 10px 16px;
+  font-family: sans-serif;
+  background: linear-gradient(#f2f4f7,#eff0e0);
+  color: #7a7777;
+  font-weight: bolder;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.sbutton #bt1:hover {
+  color: #262424;
+  border: 1px solid #ddd7d7;
+  background: #f4f6f9;
+}
+
+.sbutton #bt2{
+  margin-left: 5px;
+  padding: 10px 16px;
+  font-weight: bolder;
+  background: linear-gradient(#f2f4f7,#eff0e0);
+  font-family: sans-serif;
+  color: #7a7777;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.sbutton #bt2:hover {
+  color: #262424;
+  background: #f4f6f9;
+  border: 1px solid #ddd7d7;
+}
+
+.header ul {
+    list-style-type: none;
+    margin-right: 2%;
+    padding: 0;
+    overflow:hidden;
+    margin-top: 1.2%;
+}
+
+.header li {
+  float: right;
+  padding: 8px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #444444;
+}
+
+.header a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.lang {
+  margin-top: 2%;
+  margin-left: 31%;
+  font-size: 13px;
+  color: #444444;
+  font-family: sans-serif;
+}
+
+.lang ul {
+  list-style-type: none;
+  padding: 0;
+  overflow:hidden;
+}
+
+.lang li {
+  float: left;
+  margin-left: 2%;
+  font-size: 13px;
+  color: #444444;
+  font-family: sans-serif;
+}
+
+.lang a {
+  text-decoration: none;
+  color: blue;
+}
+
+.foot #rf{
+  float: right;
+  list-style-type: none;
+  margin-right: 2.3%;
+}
+
+.foot #lf {
+  float: left;
+  list-style-type: none;
+  margin-left: 2.3%;
+}
+
+.foot li {
+  font-size: 13px;
+  color: #757560;
+  font-family: sans-serif;
+  padding-top: 0.85%;
+}
+
+footer {
+  border-top: 1px solid #ddd7d7;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 6.4%;
+  width: 100%;
+  overflow:hidden;
+}
